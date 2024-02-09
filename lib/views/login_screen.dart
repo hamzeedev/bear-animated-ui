@@ -76,7 +76,7 @@ class _LoginScreenState extends State<LoginScreen> {
   login() {
     isHandsUp.change(false);
     isChecking.change(false);
-    if (emailControlller.text == 'admin' && passController.text == 'admin') {
+    if (emailControlller.text == 'hamza' && passController.text == 'hamza') {
       successTriger.fire();
     } else {
       failTrigger.fire();
